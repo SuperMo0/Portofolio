@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+    /* border: 1px solid black; */
+}
+
+img {
+    display: block;
+}
+
+svg {
+    cursor: pointer;
+    width: 2.3rem;
+}
