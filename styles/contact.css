@@ -9,6 +9,7 @@
     width: 40%;
     height: 300px;
     object-fit: cover;
+    object-position: center top;
 }
 
 .contact_text {
@@ -20,7 +21,6 @@
 .contact_text p {
     font-size: 1.3rem;
     max-width: 30ch;
-    /* width: min-content; */
 }
 
 footer {
@@ -53,7 +53,6 @@ a {
 .mail:hover {
     background-image: url("./../images/after.svg");
 }
-
 
 @media screen and (width <=860px) {}
 
